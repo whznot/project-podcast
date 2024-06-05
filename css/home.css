@@ -1,6 +1,6 @@
 header {
-    font-size: 24px;
-    margin: 24px;
+    font-size: 1.625rem;
+    margin: 1em;
     text-align: center;
     font-family: "Russo One", sans-serif;
 }
@@ -11,34 +11,33 @@ header a {
 }
 
 h2 {
-    margin: 0 24px;
+    margin: 0 1em;
 }
 
 .grid-container {
-    margin: 12px 48px;
+    margin: 1em 3em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 1em;
 }
 
 .grid-item {
-    height: 425px;
+    min-height: 42.5vh;
     border: 2px solid #ccc;
-    padding: 10px;
+    padding: 0.625em;
     cursor: pointer;
-    border-radius: 10px;
-    transition: 0.2s ease;
+    border-radius: 0.625em;
+    transition: 0.225s ease;
 }
 
 .grid-item img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 .item-content {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .content-bottom {
@@ -48,11 +47,10 @@ h2 {
 }
 
 .episode {
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #D9D9D9;
-    padding: 6px 10px;
-    border-radius: 5px;
-    float: left;
+    padding: 0.375em 0.625em;
+    border-radius: 0.312em;
 }
 
 .episode, .username {
@@ -60,7 +58,7 @@ h2 {
 }
 
 .duration {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 h3, .duration, .episode, .username {
@@ -69,6 +67,6 @@ h3, .duration, .episode, .username {
 
 .grid-item:hover {
     position: relative;
-    transform: translate(-1%, -1%);
-    box-shadow: 6px 6px 0 #000;
+    transform: translate(-0.375em, -0.375em);
+    box-shadow: 0.375em 0.375em 0 #000;
 }

@@ -23,6 +23,11 @@ html, body {
     background-color: #fff;
 }
 
+::selection {
+    color: #fff;
+    background-color: #000;
+}
+
 h1 {
     font-size: 2.5rem;
     font-family: "Russo One", sans-serif;
